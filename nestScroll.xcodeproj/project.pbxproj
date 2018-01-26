@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F033E56201AAE1C00F81FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E55201AAE1C00F81FD3 /* AppDelegate.swift */; };
+		2F033E58201AAE1C00F81FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E57201AAE1C00F81FD3 /* ViewController.swift */; };
+		2F033E5B201AAE1C00F81FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E59201AAE1C00F81FD3 /* Main.storyboard */; };
+		2F033E5D201AAE1C00F81FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E5C201AAE1C00F81FD3 /* Assets.xcassets */; };
+		2F033E60201AAE1C00F81FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E5E201AAE1C00F81FD3 /* LaunchScreen.storyboard */; };
+		2F033E6B201AAE1D00F81FD3 /* nestScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E6A201AAE1D00F81FD3 /* nestScrollTests.swift */; };
+		2F033E76201AAE1D00F81FD3 /* nestScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E75201AAE1D00F81FD3 /* nestScrollUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F033E67201AAE1D00F81FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F033E4A201AAE1C00F81FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F033E51201AAE1C00F81FD3;
+			remoteInfo = nestScroll;
+		};
+		2F033E72201AAE1D00F81FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F033E4A201AAE1C00F81FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F033E51201AAE1C00F81FD3;
+			remoteInfo = nestScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F033E52201AAE1C00F81FD3 /* nestScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nestScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F033E55201AAE1C00F81FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F033E57201AAE1C00F81FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F033E5A201AAE1C00F81FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F033E5C201AAE1C00F81FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F033E5F201AAE1C00F81FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F033E61201AAE1C00F81FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F033E66201AAE1D00F81FD3 /* nestScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F033E6A201AAE1D00F81FD3 /* nestScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nestScrollTests.swift; sourceTree = "<group>"; };
+		2F033E6C201AAE1D00F81FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F033E71201AAE1D00F81FD3 /* nestScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F033E75201AAE1D00F81FD3 /* nestScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nestScrollUITests.swift; sourceTree = "<group>"; };
+		2F033E77201AAE1D00F81FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F033E4F201AAE1C00F81FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E63201AAE1D00F81FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E6E201AAE1D00F81FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F033E49201AAE1C00F81FD3 = {
+			isa = PBXGroup;
+			children = (
+				2F033E54201AAE1C00F81FD3 /* nestScroll */,
+				2F033E69201AAE1D00F81FD3 /* nestScrollTests */,
+				2F033E74201AAE1D00F81FD3 /* nestScrollUITests */,
+				2F033E53201AAE1C00F81FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F033E53201AAE1C00F81FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F033E52201AAE1C00F81FD3 /* nestScroll.app */,
+				2F033E66201AAE1D00F81FD3 /* nestScrollTests.xctest */,
+				2F033E71201AAE1D00F81FD3 /* nestScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F033E54201AAE1C00F81FD3 /* nestScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2F033E55201AAE1C00F81FD3 /* AppDelegate.swift */,
+				2F033E57201AAE1C00F81FD3 /* ViewController.swift */,
+				2F033E59201AAE1C00F81FD3 /* Main.storyboard */,
+				2F033E5C201AAE1C00F81FD3 /* Assets.xcassets */,
+				2F033E5E201AAE1C00F81FD3 /* LaunchScreen.storyboard */,
+				2F033E61201AAE1C00F81FD3 /* Info.plist */,
+			);
+			path = nestScroll;
+			sourceTree = "<group>";
+		};
+		2F033E69201AAE1D00F81FD3 /* nestScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F033E6A201AAE1D00F81FD3 /* nestScrollTests.swift */,
+				2F033E6C201AAE1D00F81FD3 /* Info.plist */,
+			);
+			path = nestScrollTests;
+			sourceTree = "<group>";
+		};
+		2F033E74201AAE1D00F81FD3 /* nestScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F033E75201AAE1D00F81FD3 /* nestScrollUITests.swift */,
+				2F033E77201AAE1D00F81FD3 /* Info.plist */,
+			);
+			path = nestScrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F033E51201AAE1C00F81FD3 /* nestScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F033E7A201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScroll" */;
+			buildPhases = (
+				2F033E4E201AAE1C00F81FD3 /* Sources */,
+				2F033E4F201AAE1C00F81FD3 /* Frameworks */,
+				2F033E50201AAE1C00F81FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nestScroll;
+			productName = nestScroll;
+			productReference = 2F033E52201AAE1C00F81FD3 /* nestScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F033E65201AAE1D00F81FD3 /* nestScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F033E7D201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScrollTests" */;
+			buildPhases = (
+				2F033E62201AAE1D00F81FD3 /* Sources */,
+				2F033E63201AAE1D00F81FD3 /* Frameworks */,
+				2F033E64201AAE1D00F81FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F033E68201AAE1D00F81FD3 /* PBXTargetDependency */,
+			);
+			name = nestScrollTests;
+			productName = nestScrollTests;
+			productReference = 2F033E66201AAE1D00F81FD3 /* nestScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F033E70201AAE1D00F81FD3 /* nestScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F033E80201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScrollUITests" */;
+			buildPhases = (
+				2F033E6D201AAE1D00F81FD3 /* Sources */,
+				2F033E6E201AAE1D00F81FD3 /* Frameworks */,
+				2F033E6F201AAE1D00F81FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F033E73201AAE1D00F81FD3 /* PBXTargetDependency */,
+			);
+			name = nestScrollUITests;
+			productName = nestScrollUITests;
+			productReference = 2F033E71201AAE1D00F81FD3 /* nestScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F033E4A201AAE1C00F81FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ocean;
+				TargetAttributes = {
+					2F033E51201AAE1C00F81FD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F033E65201AAE1D00F81FD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F033E51201AAE1C00F81FD3;
+					};
+					2F033E70201AAE1D00F81FD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F033E51201AAE1C00F81FD3;
+					};
+				};
+			};
+			buildConfigurationList = 2F033E4D201AAE1C00F81FD3 /* Build configuration list for PBXProject "nestScroll" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F033E49201AAE1C00F81FD3;
+			productRefGroup = 2F033E53201AAE1C00F81FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F033E51201AAE1C00F81FD3 /* nestScroll */,
+				2F033E65201AAE1D00F81FD3 /* nestScrollTests */,
+				2F033E70201AAE1D00F81FD3 /* nestScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F033E50201AAE1C00F81FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F033E60201AAE1C00F81FD3 /* LaunchScreen.storyboard in Resources */,
+				2F033E5D201AAE1C00F81FD3 /* Assets.xcassets in Resources */,
+				2F033E5B201AAE1C00F81FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E64201AAE1D00F81FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E6F201AAE1D00F81FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F033E4E201AAE1C00F81FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F033E58201AAE1C00F81FD3 /* ViewController.swift in Sources */,
+				2F033E56201AAE1C00F81FD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E62201AAE1D00F81FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F033E6B201AAE1D00F81FD3 /* nestScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F033E6D201AAE1D00F81FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F033E76201AAE1D00F81FD3 /* nestScrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F033E68201AAE1D00F81FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F033E51201AAE1C00F81FD3 /* nestScroll */;
+			targetProxy = 2F033E67201AAE1D00F81FD3 /* PBXContainerItemProxy */;
+		};
+		2F033E73201AAE1D00F81FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F033E51201AAE1C00F81FD3 /* nestScroll */;
+			targetProxy = 2F033E72201AAE1D00F81FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F033E59201AAE1C00F81FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F033E5A201AAE1C00F81FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F033E5E201AAE1C00F81FD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F033E5F201AAE1C00F81FD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F033E78201AAE1D00F81FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F033E79201AAE1D00F81FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F033E7B201AAE1D00F81FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F033E7C201AAE1D00F81FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F033E7E201AAE1D00F81FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nestScroll.app/nestScroll";
+			};
+			name = Debug;
+		};
+		2F033E7F201AAE1D00F81FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nestScroll.app/nestScroll";
+			};
+			name = Release;
+		};
+		2F033E81201AAE1D00F81FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nestScroll;
+			};
+			name = Debug;
+		};
+		2F033E82201AAE1D00F81FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQJ6Y5LCMF;
+				INFOPLIST_FILE = nestScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ocean.com.nestScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nestScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F033E4D201AAE1C00F81FD3 /* Build configuration list for PBXProject "nestScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F033E78201AAE1D00F81FD3 /* Debug */,
+				2F033E79201AAE1D00F81FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F033E7A201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F033E7B201AAE1D00F81FD3 /* Debug */,
+				2F033E7C201AAE1D00F81FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F033E7D201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F033E7E201AAE1D00F81FD3 /* Debug */,
+				2F033E7F201AAE1D00F81FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F033E80201AAE1D00F81FD3 /* Build configuration list for PBXNativeTarget "nestScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F033E81201AAE1D00F81FD3 /* Debug */,
+				2F033E82201AAE1D00F81FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F033E4A201AAE1C00F81FD3 /* Project object */;
+}
