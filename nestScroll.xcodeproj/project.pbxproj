@@ -14,6 +14,11 @@
 		2F033E60201AAE1C00F81FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E5E201AAE1C00F81FD3 /* LaunchScreen.storyboard */; };
 		2F033E6B201AAE1D00F81FD3 /* nestScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E6A201AAE1D00F81FD3 /* nestScrollTests.swift */; };
 		2F033E76201AAE1D00F81FD3 /* nestScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F033E75201AAE1D00F81FD3 /* nestScrollUITests.swift */; };
+		2F033E87201AB23C00F81FD3 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E83201AB23B00F81FD3 /* main.js */; };
+		2F033E88201AB23C00F81FD3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E84201AB23B00F81FD3 /* index.html */; };
+		2F033E89201AB23C00F81FD3 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E85201AB23C00F81FD3 /* main.css */; };
+		2F033E8A201AB23C00F81FD3 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E86201AB23C00F81FD3 /* vendor.js */; };
+		2F033E8D201AB3BD00F81FD3 /* markdown.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F033E8C201AB3BD00F81FD3 /* markdown.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2F033E71201AAE1D00F81FD3 /* nestScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F033E75201AAE1D00F81FD3 /* nestScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nestScrollUITests.swift; sourceTree = "<group>"; };
 		2F033E77201AAE1D00F81FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F033E83201AB23B00F81FD3 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		2F033E84201AB23B00F81FD3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		2F033E85201AB23C00F81FD3 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		2F033E86201AB23C00F81FD3 /* vendor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vendor.js; sourceTree = "<group>"; };
+		2F033E8C201AB3BD00F81FD3 /* markdown.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = markdown.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,7 @@
 				2F033E55201AAE1C00F81FD3 /* AppDelegate.swift */,
 				2F033E57201AAE1C00F81FD3 /* ViewController.swift */,
 				2F033E59201AAE1C00F81FD3 /* Main.storyboard */,
+				2F033E8B201AB24300F81FD3 /* Resources */,
 				2F033E5C201AAE1C00F81FD3 /* Assets.xcassets */,
 				2F033E5E201AAE1C00F81FD3 /* LaunchScreen.storyboard */,
 				2F033E61201AAE1C00F81FD3 /* Info.plist */,
@@ -123,6 +134,18 @@
 				2F033E77201AAE1D00F81FD3 /* Info.plist */,
 			);
 			path = nestScrollUITests;
+			sourceTree = "<group>";
+		};
+		2F033E8B201AB24300F81FD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F033E84201AB23B00F81FD3 /* index.html */,
+				2F033E85201AB23C00F81FD3 /* main.css */,
+				2F033E83201AB23B00F81FD3 /* main.js */,
+				2F033E86201AB23C00F81FD3 /* vendor.js */,
+				2F033E8C201AB3BD00F81FD3 /* markdown.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F033E88201AB23C00F81FD3 /* index.html in Resources */,
 				2F033E60201AAE1C00F81FD3 /* LaunchScreen.storyboard in Resources */,
+				2F033E8A201AB23C00F81FD3 /* vendor.js in Resources */,
+				2F033E8D201AB3BD00F81FD3 /* markdown.html in Resources */,
+				2F033E89201AB23C00F81FD3 /* main.css in Resources */,
 				2F033E5D201AAE1C00F81FD3 /* Assets.xcassets in Resources */,
 				2F033E5B201AAE1C00F81FD3 /* Main.storyboard in Resources */,
+				2F033E87201AB23C00F81FD3 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
